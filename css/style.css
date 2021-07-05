@@ -1,0 +1,208 @@
+body{
+	height: 100vh;
+	margin: 0;
+	font-family: 'poppins', arial;
+
+
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	
+}
+ul li{
+	padding: 12px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+img{
+	width: 100%;
+}
+.nav-container{
+	background: #6700ee;
+	a{
+		color: white;
+	}
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	.logo{
+		color: white;
+		font-weight: bold;
+	}
+	
+		ul{
+			display: flex;
+			a{
+				display: block;
+				padding: 0 1em;
+			}
+		}
+	
+
+}
+.social-header{
+	display: none;
+}
+.base {
+	background: #6e00ff;
+	display: grid;
+	color: white;
+	text-align: center;
+	padding: 4em;
+}
+.meet{
+	display: flex;
+	margin: 0 auto;
+	width: 200px;
+	font-weight: bold;
+	color: #ff64cb;
+}
+section{
+	padding: 4em 2em;
+	text-align: center;
+}
+h3{
+	justify-content: center;
+	text-align: center;
+	font-size: 4em;
+	color: #4229ff;
+	text-shadow: 2px 3px 6px gray;
+}
+.fectured{
+	position: relative;
+}
+.fectured:before{
+	content:"";
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: gray;
+	top:0;
+	left: 0;
+	z-index: -1;
+
+}
+.subtitle{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #6e00ff;
+	letter-spacing: .2em;
+	font-size: .86em;
+}
+
+.featured-title {
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: -.4em;
+	display: block;
+
+}
+.feature-desc{
+	color: black;
+	margin-bottom: 3em;
+	font-size: .9em;
+	line-height: 1.8em;
+	font-weight: 500;
+
+}
+.skills {
+	background: 
+}
+.skills-container ul li{
+	background:white;
+	padding: 2em;
+	border-radius: 1em;
+	margin-bottom: 1em;
+
+
+
+}
+.skills-container{
+	height: auto;
+	display: grid;
+	place-content: center;
+	margin: 0 auto;
+   &.one{
+   	width: 50px;
+   
+
+   }	
+   &.two{
+   width: 	100px;
+   b
+   }
+   &.three{
+   	width: 50px;
+   }
+   .skill-title{
+   	font-weight: bold;
+   	font-size: 2em;
+
+   }
+   .fetured-desc{
+   	margin-bottom: 2em;
+   }
+}
+.icon_container 
+.portfolio{
+	background: lightgray;
+}
+.portfolio-container a img{
+	border-radius: 1em;
+	margin-bottom: 2em;
+}
+
+.skill-title{
+   	font-weight: bold;
+   	font-size: 1.8em;
+   	color: purple;
+
+   }
+
+   .skills-container ul li{
+   	padding: 10px;
+   	border:  3px solid rgba(255, 0, 0, .3);
+   	display: flex;
+   	flex-direction:row;
+   	justify-content: space-around;
+
+
+   }
+   .transition2{
+   	margin-right: 10px;
+
+   }
+   .transition1{
+   	margin-right: 10px;
+   	
+   }
+   .footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
