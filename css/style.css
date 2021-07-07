@@ -2,7 +2,7 @@ body{
 	height: 100vh;
 	margin: 0;
 	font-family: 'poppins', arial;
-	color: lightgray;
+	color: black;
 
 
 }
@@ -28,31 +28,20 @@ img{
 }
 .nav-container{
 	background: #6700ee;
-	a{
-		color: white;
-	}
 }
+
 header{
 	display: flex;
 	justify-content: space-between;
 	padding: 2em;
-	.logo{
-		color: white;
-		font-weight: bold;
-	}
-	
-		ul{
-			display: flex;
-			a{
-				display: block;
-				padding: 0 1em;
-			}
-		}
-	
-
 }
 .social-header{
 	display: none;
+}
+.logo{
+	font-size: 2em;
+	font-family:'Shrikhand', cursive;
+	
 }
 .base {
 	background: #6e00ff;
@@ -66,7 +55,8 @@ header{
 	margin: 0 auto;
 	width: 200px;
 	font-weight: bold;
-	color: #ff64cb;
+	color: #47ffed;
+	font-size: 1.4em;
 }
 section{
 	padding: 4em 2em;
@@ -88,7 +78,7 @@ h3{
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	background: gray;
+	background: black;
 	top:0;
 	left: 0;
 	z-index: -1;
@@ -111,15 +101,15 @@ h3{
 
 }
 .feature-desc{
-	color: black;
+	color: red;
 	margin-bottom: 3em;
 	font-size: .9em;
 	line-height: 1.8em;
 	font-weight: 500;
 
 }
-.skills {
-	background: 
+.featured-desc-skill-desc{
+	color: #4100a3;
 }
 .skills-container ul li{
 	background:white;
@@ -156,9 +146,8 @@ h3{
    	margin-bottom: 2em;
    }
 }
-.icon_container 
-.portfolio{
-	background: lightgray;
+.icon_container{
+	background: black;
 }
 .portfolio-container a img{
 	border-radius: 1em;
@@ -178,7 +167,8 @@ h3{
    	display: flex;
    	flex-direction:row;
    	justify-content: space-around;
-
+   	background: rgb(255 146 98 / 65%);
+    box-shadow: 2px 5px 10px gray;
 
    }
    .transition2{
